@@ -4,6 +4,10 @@
  * work well for content-centric websites.
  */
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #f97316; /* Orange color */
@@ -28,3 +32,4 @@
   --ifm-color-primary-lightest: #ffd9a6; /* Lightest dark mode orange */
   --docusaurus-highlighted-code-line-bg: rgba(249, 115, 22, 0.3); /* Dark mode orange highlight */
 }
+
