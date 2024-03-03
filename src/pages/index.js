@@ -1,147 +1,188 @@
 import React from 'react';
-import clsx from 'clsx';
-import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
-
-import styles from './index.module.css';
+import Misago1 from '../../static/img/misago-forum.png';
+import Misago2 from '../../static/img/misago-thread.png';
 
 export default function Home() {
-  const {siteConfig} = useDocusaurusContext();
   return (
-    <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
-      <main>
+    <Layout>
 
-      <section className="relative">
+      <div className="relative pb-20">
 
-        {/* Illustration behind hero content */}
-        <div className="absolute left-1/2 transform -translate-x-1/2 bottom-0 pointer-events-none -z-1" aria-hidden="true">
-          <svg width="1360" height="578" viewBox="0 0 1360 578" xmlns="http://www.w3.org/2000/svg">
-            <defs>
-              <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="illustration-01">
-                <stop stopColor="#FFF" offset="0%" />
-                <stop stopColor="#EAEAEA" offset="77.402%" />
-                <stop stopColor="#DFDFDF" offset="100%" />
-              </linearGradient>
-            </defs>
-            <g fill="url(#illustration-01)" fillRule="evenodd">
-              <circle cx="1232" cy="128" r="128" />
-              <circle cx="155" cy="443" r="64" />
-            </g>
-          </svg>
+        {/* Illustration bg */}
+        <div className="absolute left-1/2 transform -translate-x-1/2 bottom-0 pointer-events-none -z-1
+        " aria-hidden="true">
+          <div className="dark:hidden">
+            <svg width="1360" height="578" viewBox="0 0 1360 578" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="illustration-01">
+                  <stop stopColor="#FFF" offset="0%" />
+                  <stop stopColor="#fb923c" offset="77.402%" />
+                  <stop stopColor="#F97316" offset="100%" />
+                </linearGradient>
+              </defs>
+              <g fill="url(#illustration-01)" fillRule="evenodd">
+                <circle cx="1102" cy="128" r="100" />
+                <circle cx="250" cy="410" r="50" />
+              </g>
+            </svg>
+          </div>
         </div>
 
+        {/* Banner content */}
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
-
-          {/* Hero content */}
-          <div className="pt-32 pb-12 md:pt-40 md:pb-20">
-
-            {/* Section header */}
+          <div className="pt-32 pb-12 md:pt-40 md:pb-10">
             <div className="text-center pb-12 md:pb-16">
-              <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Let us introduce you <span className="bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-orange-400">Wesago</span></h1>
+              <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Let us introduce you <span className="bg-clip-text text-transparent bg-gradient-to-r from-orange-600 to-orange-400">Wesago</span></h1>
               <div className="max-w-3xl mx-auto">
                 <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>
                 <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
                   <div>
-                    <a className="px-8 py-3 shadow-lg font-medium inline-flex items-center justify-center border border-transparent rounded leading-snug transition duration-150 ease-in-out text-white bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Go to Wesago</a>
+                    <a className="px-8 py-3 shadow-lg font-medium inline-flex items-center justify-center border border-transparent rounded leading-snug transition duration-150 ease-in-out text-white hover:text-white bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0 hover:no-underline" href="#0">Go to Wesago</a>
                   </div>
                   <div>
-                    <a className="px-8 py-3 shadow-lg font-medium inline-flex items-center justify-center border border-transparent rounded leading-snug transition duration-150 ease-in-out text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">Github</a>
+                    <a className="px-8 py-3 shadow-lg font-medium inline-flex items-center justify-center border border-transparent rounded leading-snug transition duration-150 ease-in-out dark:bg-gray-700 text-white bg-gray-900 hover:bg-gray-800 hover:no-underline w-full sm:w-auto sm:ml-4" href="#0">Github</a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-
         </div>
 
+      </div>
 
-{/* Section background (needs .relative class on parent and next sibling elements) */}
-<div className="absolute inset-0 bg-gray-100 pointer-events-none mb-16" aria-hidden="true"></div>
-      <div className="absolute left-0 right-0 m-auto w-px p-px h-20 bg-gray-200 transform -translate-y-1/2"></div>
 
-      <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="pt-12 md:pt-20">
+      {/* What is Wesago */}
+      <div className="py-16 bg-orange-100 dark:bg-gray-800 rounded-lg shadow-lg">
+        <div className="max-w-3xl mx-auto text-center pb-6">
+          <p className="text-3xl font-extrabold leading-tight tracking-tighter mb-4">What is Wesago?</p>
+          <p className="text-xl text-gray-600 dark:text-gray-500">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
+        </div>
 
-          {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mb-4">What is Wesago?</h1>
-            <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
+        <div className="md:grid md:grid-cols-2 w-4/5 mx-auto gap-6">
+          <div className='flex flex-col justify-center'>
+                <img className="rounded-lg shadow-2xl" src={Misago1} alt="Wesago" />
           </div>
 
-          {/* Section content */}
-          <div className="md:grid md:grid-cols-12 md:gap-6">
+          <div className="flex flex-col justify-center">
+                <img className="rounded-lg shadow-2xl" src={Misago2} alt="Wesago" />
+          </div>
+        </div>
+      </div>
 
-            {/* Content */}
-            <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
-              <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
-                <h3 className="h3 mb-3">With Wesago you can...</h3>
-                <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
-              </div>
-              {/* Tabs buttons */}
-              <div className="mb-8 md:mb-0">
-                <a
-                  className="flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3"
-                  href="#0"
-                  onClick={(e) => { e.preventDefault()}}
-                >
-                  <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Building the Simple ecosystem</div>
-                    <div className="text-gray-600">Take collaboration to the next level with security and administrative features built for teams.</div>
-                  </div>
-                  <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
-                    <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M11.953 4.29a.5.5 0 00-.454-.292H6.14L6.984.62A.5.5 0 006.12.173l-6 7a.5.5 0 00.379.825h5.359l-.844 3.38a.5.5 0 00.864.445l6-7a.5.5 0 00.075-.534z" />
-                    </svg>
-                  </div>
-                </a>
-                <a
-                  className="flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3"
-                  href="#0"
-                  onClick={(e) => { e.preventDefault()}}
-                >
-                  <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Building the Simple ecosystem</div>
-                    <div className="text-gray-600">Take collaboration to the next level with security and administrative features built for teams.</div>
-                  </div>
-                  <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
-                    <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M11.854.146a.5.5 0 00-.525-.116l-11 4a.5.5 0 00-.015.934l4.8 1.921 1.921 4.8A.5.5 0 007.5 12h.008a.5.5 0 00.462-.329l4-11a.5.5 0 00-.116-.525z" fillRule="nonzero" />
-                    </svg>
-                  </div>
-                </a>
-                <a
-                  className="flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3"
-                  href="#0"
-                  onClick={(e) => { e.preventDefault()}}
-                >
-                  <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Building the Simple ecosystem</div>
-                    <div className="text-gray-600">Take collaboration to the next level with security and administrative features built for teams.</div>
-                  </div>
-                  <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
-                    <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M11.334 8.06a.5.5 0 00-.421-.237 6.023 6.023 0 01-5.905-6c0-.41.042-.82.125-1.221a.5.5 0 00-.614-.586 6 6 0 106.832 8.529.5.5 0 00-.017-.485z" fill="#191919" fillRule="nonzero" />
-                    </svg>
-                  </div>
-                </a>
-              </div>
+
+      {/* Functionalies */}
+      <div className="relative max-w-6xl mx-auto px-4 sm:px-6 pt-12 md:pt-20 pb-32">
+
+          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-10">
+            <p className="text-3xl font-extrabold leading-tight tracking-tighter mb-4">What you can do with Wesago</p>
+            <p className="text-xl text-gray-600 dark:text-gray-500">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
+          </div>
+
+          {/* Items */}
+          <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
+
+            {/* 1st item */}
+            <div className=" relative flex flex-col items-center p-6 bg-white dark:bg-gray-800 rounded shadow-xl">
+              <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                <g fill="none" fillRule="evenodd">
+                  <rect className="fill-current text-orange-600" width="64" height="64" rx="32" />
+                  <g strokeWidth="2">
+                    <path className="stroke-current text-orange-300" d="M34.514 35.429l2.057 2.285h8M20.571 26.286h5.715l2.057 2.285" />
+                    <path className="stroke-current text-white" d="M20.571 37.714h5.715L36.57 26.286h8" />
+                    <path className="stroke-current text-orange-300" strokeLinecap="square" d="M41.143 34.286l3.428 3.428-3.428 3.429" />
+                    <path className="stroke-current text-white" strokeLinecap="square" d="M41.143 29.714l3.428-3.428-3.428-3.429" />  
+                  </g>
+                </g>
+              </svg>
+              <p className="text-xl font-bold leading-snug tracking-tight mb-1">Headless CMS</p>
+              <p className="text-gray-600 text-center dark:text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+
+            {/* 2nd item */}
+            <div className="relative flex flex-col items-center p-6 bg-white dark:bg-gray-800 rounded shadow-xl">
+              <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                <g fill="none" fillRule="evenodd">
+                  <rect className="fill-current text-orange-600" width="64" height="64" rx="32" />
+                  <g strokeWidth="2" transform="translate(19.429 20.571)">
+                    <circle className="stroke-current text-white" strokeLinecap="square" cx="12.571" cy="12.571" r="1.143" />
+                    <path className="stroke-current text-white" d="M19.153 23.267c3.59-2.213 5.99-6.169 5.99-10.696C25.143 5.63 19.514 0 12.57 0 5.63 0 0 5.629 0 12.571c0 4.527 2.4 8.483 5.99 10.696" />
+                    <path className="stroke-current text-orange-300" d="M16.161 18.406a6.848 6.848 0 003.268-5.835 6.857 6.857 0 00-6.858-6.857 6.857 6.857 0 00-6.857 6.857 6.848 6.848 0 003.268 5.835" />
+                  </g>
+                </g>
+              </svg>
+              <p className="text-xl font-bold leading-snug tracking-tight mb-1">Headless CMS</p>
+              <p className="text-gray-600 text-center dark:text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+
+            {/* 3rd item */}
+            <div className="relative flex flex-col items-center p-6 bg-white dark:bg-gray-800 rounded shadow-xl">
+              <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                <g fill="none" fillRule="evenodd">
+                  <rect className="fill-current text-orange-600" width="64" height="64" rx="32" />
+                  <g strokeWidth="2">
+                    <path className="stroke-current text-orange-300" d="M34.743 29.714L36.57 32 27.43 43.429H24M24 20.571h3.429l1.828 2.286" />
+                    <path className="stroke-current text-white" strokeLinecap="square" d="M34.743 41.143l1.828 2.286H40M40 20.571h-3.429L27.43 32l1.828 2.286" />
+                    <path className="stroke-current text-orange-300" d="M36.571 32H40" />
+                    <path className="stroke-current text-white" d="M24 32h3.429" strokeLinecap="square" />
+                  </g>
+                </g>
+              </svg>
+              <p className="text-xl font-bold leading-snug tracking-tight mb-1">Headless CMS</p>
+              <p className="text-gray-600 text-center dark:text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+
+            {/* 4th item */}
+            <div className="relative flex flex-col items-center p-6 bg-white dark:bg-gray-800 rounded shadow-xl">
+              <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                <g fill="none" fillRule="evenodd">
+                  <rect className="fill-current text-orange-600" width="64" height="64" rx="32" />
+                  <g strokeWidth="2">
+                    <path className="stroke-current text-white" d="M32 37.714A5.714 5.714 0 0037.714 32a5.714 5.714 0 005.715 5.714" />
+                    <path className="stroke-current text-white" d="M32 37.714a5.714 5.714 0 015.714 5.715 5.714 5.714 0 015.715-5.715M20.571 26.286a5.714 5.714 0 005.715-5.715A5.714 5.714 0 0032 26.286" />
+                    <path className="stroke-current text-white" d="M20.571 26.286A5.714 5.714 0 0126.286 32 5.714 5.714 0 0132 26.286" />
+                    <path className="stroke-current text-orange-300" d="M21.714 40h4.572M24 37.714v4.572M37.714 24h4.572M40 21.714v4.572" strokeLinecap="square" />
+                  </g>
+                </g>
+              </svg>
+              <p className="text-xl font-bold leading-snug tracking-tight mb-1">Headless CMS</p>
+              <p className="text-gray-600 text-center dark:text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+
+            {/* 5th item */}
+            <div className="relative flex flex-col items-center p-6 bg-white dark:bg-gray-800 rounded shadow-xl">
+              <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                <g fill="none" fillRule="evenodd">
+                  <rect className="fill-current text-orange-600" width="64" height="64" rx="32" />
+                  <g strokeWidth="2">
+                    <path className="stroke-current text-white" d="M19.429 32a12.571 12.571 0 0021.46 8.89L23.111 23.11A12.528 12.528 0 0019.429 32z" />
+                    <path className="stroke-current text-orange-300" d="M32 19.429c6.943 0 12.571 5.628 12.571 12.571M32 24a8 8 0 018 8" />
+                    <path className="stroke-current text-white" d="M34.286 29.714L32 32" />
+                  </g>
+                </g>
+              </svg>
+              <p className="text-xl font-bold leading-snug tracking-tight mb-1">Headless CMS</p>
+              <p className="text-gray-600 text-center dark:text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+
+            {/* 6th item */}
+            <div className="relative flex flex-col items-center p-6 bg-white dark:bg-gray-800 rounded shadow-xl">
+              <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                <g fill="none" fillRule="evenodd">
+                  <rect className="fill-current text-orange-600" width="64" height="64" rx="32" />
+                  <g strokeWidth="2" strokeLinecap="square">
+                    <path className="stroke-current text-white" d="M29.714 40.358l-4.777 2.51 1.349-7.865-5.715-5.57 7.898-1.147L32 21.13l3.531 7.155 7.898 1.147L40 32.775" />
+                    <path className="stroke-current text-orange-300" d="M44.571 43.429H34.286M44.571 37.714H34.286" />
+                  </g>
+                </g>
+              </svg>
+              <p className="text-xl font-bold leading-snug tracking-tight mb-1">Headless CMS</p>
+              <p className="text-gray-600 text-center dark:text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
 
           </div>
 
-        </div>
       </div>
-
-        </section>
-      </main>
-
-
-
-      
 
     </Layout>
   );
