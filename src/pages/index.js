@@ -56,7 +56,7 @@ export default function Home() {
       <div className="py-16 bg-orange-100 dark:bg-gray-800 rounded-lg shadow-lg">
         <div className="max-w-3xl mx-auto text-center pb-6">
           <p className="text-3xl font-extrabold leading-tight tracking-tighter mb-4">What is Wesago?</p>
-          <p className="text-xl text-gray-600 dark:text-gray-500">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
+          <p className="text-xl text-gray-600 dark:text-gray-500 px-5 md:px-0 lg:px-0">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
         </div>
 
         <div className="md:grid md:grid-cols-2 w-4/5 mx-auto gap-6">
@@ -64,7 +64,7 @@ export default function Home() {
                 <img className="rounded-lg shadow-2xl" src={Misago1} alt="Wesago" />
           </div>
 
-          <div className="flex flex-col justify-center">
+          <div className="flex flex-col justify-center pt-5 md:pt-0 lg:pt-0">
                 <img className="rounded-lg shadow-2xl" src={Misago2} alt="Wesago" />
           </div>
         </div>
