@@ -33,3 +33,15 @@
   --docusaurus-highlighted-code-line-bg: rgba(249, 115, 22, 0.3); /* Dark mode orange highlight */
 }
 
+.navbar__toggle {
+  /* order: 1; Moves the burger menu to the right */
+  order: 1;
+  margin-left: auto;
+}
+
+
+@media (max-width: 1374px) {
+  .hideOnMobile {
+    display: none;
+  }
+}
