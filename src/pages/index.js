@@ -35,7 +35,7 @@ export default function Home() {
             <div className="text-center pb-12 md:pb-16">
               <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Let us introduce you <span className="bg-clip-text text-transparent bg-gradient-to-r from-orange-600 to-orange-400">Wesago</span></h1>
               <div className="max-w-3xl mx-auto">
-                <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>
+                <p className="text-xl text-gray-600 mt-8 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Do you have any problem? Do you want to know something about your department at the university? Ask on Wesago and someone will help you :)</p>
                 <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
                   <div>
                     <a className="px-8 py-3 shadow-lg font-medium inline-flex items-center justify-center border border-transparent rounded leading-snug transition duration-150 ease-in-out text-white hover:text-white bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0 hover:no-underline" href="#0">Go to Wesago</a>
@@ -56,7 +56,9 @@ export default function Home() {
       <div className="py-16 bg-orange-100 dark:bg-gray-800 rounded-lg shadow-lg">
         <div className="max-w-3xl mx-auto text-center pb-6">
           <p className="text-3xl font-extrabold leading-tight tracking-tighter mb-4">What is Wesago?</p>
-          <p className="text-xl text-gray-600 dark:text-gray-500 px-5 md:px-0 lg:px-0">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
+          <p className="text-xl text-gray-600 dark:text-gray-500 px-5 md:px-0 lg:px-0">
+            Wesago is a modern forum for students and teachers at the University of Aveiro. It is a place where you can ask questions about your department, subjects, or anything else that you want to know. You can, <b>(and should)</b> help others by answering their questions.
+          </p>
         </div>
 
         <div className="md:grid md:grid-cols-2 w-4/5 mx-auto gap-6">
@@ -75,8 +77,10 @@ export default function Home() {
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6 pt-12 md:pt-20 pb-32">
 
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-10">
-            <p className="text-3xl font-extrabold leading-tight tracking-tighter mb-4">What you can do with Wesago</p>
-            <p className="text-xl text-gray-600 dark:text-gray-500">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
+            <p className="text-3xl font-extrabold leading-tight tracking-tighter mb-4">What can I do with Wesago?</p>
+            <p className="text-xl text-gray-600 dark:text-gray-500">
+              With Wesago you can...
+            </p>
           </div>
 
           {/* Items */}
@@ -95,8 +99,8 @@ export default function Home() {
                   </g>
                 </g>
               </svg>
-              <p className="text-xl font-bold leading-snug tracking-tight mb-1">Headless CMS</p>
-              <p className="text-gray-600 text-center dark:text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p className="text-xl font-bold leading-snug tracking-tight mb-1">Create categories</p>
+              <p className="text-gray-600 text-center dark:text-gray-500">Create categories together with unlimited number and depth of subcategories</p>
             </div>
 
             {/* 2nd item */}
@@ -111,8 +115,8 @@ export default function Home() {
                   </g>
                 </g>
               </svg>
-              <p className="text-xl font-bold leading-snug tracking-tight mb-1">Headless CMS</p>
-              <p className="text-gray-600 text-center dark:text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p className="text-xl font-bold leading-snug tracking-tight mb-1">Create threads</p>
+              <p className="text-gray-600 text-center dark:text-gray-500">Create threads and ask questions about subjects, etc.</p>
             </div>
 
             {/* 3rd item */}
