@@ -57,7 +57,7 @@ export default function Home() {
         <div className="max-w-3xl mx-auto text-center pb-6">
           <p className="text-3xl font-extrabold leading-tight tracking-tighter mb-4">What is Wesago?</p>
           <p className="text-xl text-gray-600 dark:text-gray-500 px-5 md:px-0 lg:px-0">
-            Wesago is a modern forum for students and teachers at the University of Aveiro. It is a place where you can ask questions about your department, subjects, or anything else that you want to know. You can, <b>(and should)</b> help others by answering their questions.
+            Wesago is a modern forum for students and teachers at the University of Aveiro. It is a place where you can ask questions about your department, subjects, or anything else that you want to know. You can, <b><u>and should</u></b>, help others by answering their questions.
           </p>
         </div>
 
@@ -77,7 +77,7 @@ export default function Home() {
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6 pt-12 md:pt-20 pb-32">
 
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-10">
-            <p className="text-3xl font-extrabold leading-tight tracking-tighter mb-4">What can I do with Wesago?</p>
+            <p className="text-3xl font-extrabold leading-tight tracking-tighter mb-4">What can you do with Wesago?</p>
             <p className="text-xl text-gray-600 dark:text-gray-500">
               With Wesago you can...
             </p>
@@ -87,7 +87,7 @@ export default function Home() {
           <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
 
             {/* 1st item */}
-            <div className=" relative flex flex-col items-center p-6 bg-white dark:bg-gray-800 rounded shadow-xl">
+            <div className="relative flex flex-col items-center p-6 bg-white dark:bg-gray-800 rounded shadow-xl">
               <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fillRule="evenodd">
                   <rect className="fill-current text-orange-600" width="64" height="64" rx="32" />
@@ -115,8 +115,8 @@ export default function Home() {
                   </g>
                 </g>
               </svg>
-              <p className="text-xl font-bold leading-snug tracking-tight mb-1">Create threads</p>
-              <p className="text-gray-600 text-center dark:text-gray-500">Create threads and ask questions about subjects, etc.</p>
+              <p className="text-xl font-bold leading-snug tracking-tight mb-1">Create public threads</p>
+              <p className="text-gray-600 text-center dark:text-gray-500">Create public threads and start a discussion with the community</p>
             </div>
 
             {/* 3rd item */}
@@ -132,8 +132,8 @@ export default function Home() {
                   </g>
                 </g>
               </svg>
-              <p className="text-xl font-bold leading-snug tracking-tight mb-1">Headless CMS</p>
-              <p className="text-gray-600 text-center dark:text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p className="text-xl font-bold leading-snug tracking-tight mb-1">Create private threads</p>
+              <p className="text-gray-600 text-center dark:text-gray-500">Create private threads and talk with your friends privately</p>
             </div>
 
             {/* 4th item */}
@@ -149,8 +149,8 @@ export default function Home() {
                   </g>
                 </g>
               </svg>
-              <p className="text-xl font-bold leading-snug tracking-tight mb-1">Headless CMS</p>
-              <p className="text-gray-600 text-center dark:text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p className="text-xl font-bold leading-snug tracking-tight mb-1">Create pools</p>
+              <p className="text-gray-600 text-center dark:text-gray-500">Create pools and ask the community about their opinion</p>
             </div>
 
             {/* 5th item */}
@@ -165,8 +165,8 @@ export default function Home() {
                   </g>
                 </g>
               </svg>
-              <p className="text-xl font-bold leading-snug tracking-tight mb-1">Headless CMS</p>
-              <p className="text-gray-600 text-center dark:text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p className="text-xl font-bold leading-snug tracking-tight mb-1">Create pools</p>
+              <p className="text-gray-600 text-center dark:text-gray-500">Create pools and ask the community about their opinion</p>
             </div>
 
             {/* 6th item */}
