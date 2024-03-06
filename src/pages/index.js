@@ -35,7 +35,7 @@ export default function Home() {
             <div className="text-center pb-12 md:pb-16">
               <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Let us introduce you <span className="bg-clip-text text-transparent bg-gradient-to-r from-orange-600 to-orange-400">Wesago</span></h1>
               <div className="max-w-3xl mx-auto">
-                <p className="text-xl text-gray-600 mt-8 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Do you have any problem? Do you want to know something about your department at the university? Ask on Wesago and someone will help you :)</p>
+                <p className="text-xl text-gray-600 mt-8 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Do you have any problem? Do you want to know something about your department or course at the university? Ask on Wesago and someone will help you :)</p>
                 <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
                   <div>
                     <a className="px-8 py-3 shadow-lg font-medium inline-flex items-center justify-center border border-transparent rounded leading-snug transition duration-150 ease-in-out text-white hover:text-white bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0 hover:no-underline" href="#0">Go to Wesago</a>
@@ -165,8 +165,8 @@ export default function Home() {
                   </g>
                 </g>
               </svg>
-              <p className="text-xl font-bold leading-snug tracking-tight mb-1">Create pools</p>
-              <p className="text-gray-600 text-center dark:text-gray-500">Create pools and ask the community about their opinion</p>
+              <p className="text-xl font-bold leading-snug tracking-tight mb-1">Follow users</p>
+              <p className="text-gray-600 text-center dark:text-gray-500">Follow users and get notifications when they create a new thread</p>
             </div>
 
             {/* 6th item */}
@@ -180,8 +180,8 @@ export default function Home() {
                   </g>
                 </g>
               </svg>
-              <p className="text-xl font-bold leading-snug tracking-tight mb-1">Headless CMS</p>
-              <p className="text-gray-600 text-center dark:text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p className="text-xl font-bold leading-snug tracking-tight mb-1">Easy search</p>
+              <p className="text-gray-600 text-center dark:text-gray-500">Search for threads, categories, and users with a simple and easy search</p>
             </div>
 
           </div>
