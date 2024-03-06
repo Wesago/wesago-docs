@@ -61,4 +61,17 @@ New technologies will be added as the project progresses, for example, **Gunicor
 
 ![Wesago Architecture](../static/img/wesago_architecture_original.png)
 
-## Components
+## Scenarios
+
+### Types of users
+
+- **Guest:** A user who is not logged in.
+
+- **User:** A user who is logged in.
+
+- **Moderator:** A user who is responsible for moderating a specific category.
+
+- **Admin:** A user who has administrative privileges.
+
+### Number of users
+
