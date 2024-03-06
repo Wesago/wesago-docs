@@ -10,7 +10,37 @@ sidebar_position: 1
 
 ## Key Features
 
+#### Create categories
+- Create categories together with an unlimited number and depth of subcategories.
 
+
+#### Create public threads
+- Create public threads and start a discussion with the community.
+
+#### Create private threads
+- Create private threads and talk with your friends privately.
+
+#### Create pools
+- Create pools and ask the community about their opinion.
+
+
+#### Follow user
+- Follow users and get notifications when they create a new thread.
+
+
+#### Easy search
+- Search for threads, categories, and users with a simple and easy search.
 
 ## Non-Functional Requirements
 
+## Software and key technologies
+
+- Django
+- NGINX
+- PostgreSQL
+- Redis
+- Docker
+- Jinja2
+- Celery
+
+## Components

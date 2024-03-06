@@ -100,7 +100,7 @@ export default function Home() {
                 </g>
               </svg>
               <p className="text-xl font-bold leading-snug tracking-tight mb-1">Create categories</p>
-              <p className="text-gray-600 text-center dark:text-gray-500">Create categories together with unlimited number and depth of subcategories</p>
+              <p className="text-gray-600 text-center dark:text-gray-500">Create categories with an unlimited number and depth of subcategories</p>
             </div>
 
             {/* 2nd item */}
