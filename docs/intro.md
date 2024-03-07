@@ -18,9 +18,7 @@ sidebar_position: 1
 
 - **Create pools:** Create pools and ask the community about their opinion.
 
-
 - **Follow user:** Follow users and get notifications when they create a new thread.
-
 
 - **Easy search:** Search for threads, categories, and users with a simple and easy search.
 
@@ -28,10 +26,14 @@ sidebar_position: 1
 
 - **Availability:** The system should be available most of the time.
 
+- **Scalability:** The system should be able to handle a large number of users and threads, never compromising its performance.
+
+- **Flexibility:** The system should be flexible and should be able to adapt to the changing requirements of the University of Aveiro community, scaling up or down as needed.
+
+- **Reliability:** The system should recover gracefully from failures without data loss or service interruption.
+
 - **Security:** The system should encrypt all communication and implement a role-based access control mechanism to restrict access to sensitive data.
 
 - **Maintainability:** The system should be modular and follow the SOLID principles to facilitate future changes. The code should be well-documented, and the system should have automated tests to ensure its correctness.
 
 - **Usability:** The system should have an intuitive user interface to provide a good user experience.
-
-- **Scalability:** The system should be able to handle a large number of users and threads, never compromising its performance.

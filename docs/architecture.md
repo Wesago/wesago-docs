@@ -18,7 +18,6 @@ sidebar_position: 2
 
 - **Docker** is used to containerize the application and its dependencies.
 
-
 :::info
 
 New technologies will be added as the project progresses, for example, **Gunicorn**, **Rsyslog**, **Kubernetes**, etc.
@@ -28,7 +27,6 @@ New technologies will be added as the project progresses, for example, **Gunicor
 ## Initial Architecture
 
 ![Wesago Architecture](../static/img/wesago_architecture_original.png)
-
 
 :::info
 
