@@ -41,7 +41,7 @@ export default function Home() {
                     <a className="px-8 py-3 shadow-lg font-medium inline-flex items-center justify-center border border-transparent rounded leading-snug transition duration-150 ease-in-out text-white hover:text-white bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0 hover:no-underline" href="#0">Go to Wesago</a>
                   </div>
                   <div>
-                    <a className="px-8 py-3 shadow-lg font-medium inline-flex items-center justify-center border border-transparent rounded leading-snug transition duration-150 ease-in-out dark:bg-gray-700 text-white bg-gray-900 hover:bg-gray-800 hover:no-underline w-full sm:w-auto sm:ml-4" href="#0">Github</a>
+                    <a className="px-8 py-3 shadow-lg font-medium inline-flex items-center justify-center border border-transparent rounded leading-snug transition duration-150 ease-in-out dark:bg-gray-700 text-white bg-gray-900 hover:bg-gray-800 hover:no-underline w-full sm:w-auto sm:ml-4" href="https://github.com/Wesago">Github</a>
                   </div>
                 </div>
               </div>
